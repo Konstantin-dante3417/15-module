@@ -1,0 +1,40 @@
+{
+  "name": "new-project",
+  "version": "1.1.0",
+  "description": "new-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "dev-server"
+  },
+  "author": "Palkin Konstantin",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.21.3",
+    "dev-server": "^0.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.0",
+    "extract-text-webpack-plugin-updated": "^1.0.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "keywords": [
+    "comment`s",
+    "users"
+  ]
+}
